@@ -1,5 +1,10 @@
 o-ft-forms [![Build Status](https://travis-ci.org/Financial-Times/o-ft-forms.png?branch=master)](https://travis-ci.org/Financial-Times/o-ft-forms)
 ============
+
+### This module is now deprecated, please use [o-forms](http://registry.origami.ft.com/components/o-forms) instead.
+
+***
+
 ## Overview
 
 This module provides FT-branded styles for commonly used form elements and their corresponding validation states.
@@ -43,11 +48,11 @@ All the standard form elements follow this basic structure, with some variation 
 ### Selects
 
 Using the basic structure defined above, selects are styled by applying `.o-ft-forms__field--select` on the `select` element itself.
-    
+
 ### Textareas
 
 Textareas are styled by applying `.o-ft-forms__field--textarea` to the `textarea` element itself.
-    
+
 ###Checkboxes and radio buttons
 
 In order for checkboxes and radio buttons to be styled correctly, their `type` attribute must be set.
